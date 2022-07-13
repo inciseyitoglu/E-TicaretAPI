@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>E_TicaretAPI.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\E-TicaretAPI.Application\E-TicaretAPI.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\E-TicaretAPI.Persistece\E-TicaretAPI.Persistece.csproj" />
+  </ItemGroup>
+
+</Project>
