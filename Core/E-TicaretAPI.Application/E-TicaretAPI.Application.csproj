@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\E-TicaretAPI.Domain\E-TicaretAPI.Domain.csproj" />
   </ItemGroup>
 
