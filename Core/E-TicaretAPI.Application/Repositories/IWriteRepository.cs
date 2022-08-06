@@ -13,8 +13,8 @@ namespace E_TicaretAPI.Application.Repositories
         Task<bool> AddRangeAsync(List<T> datas);
         bool Remove(T model);
         bool RemoveRange(List<T> datas);
-        bool Remove (string id);
-        Task<bool> UpdateAsync(T model);
+        Task<bool> RemoveAsync (string id);
+        bool Update(T model);
         Task<int> SaveAsync();
     }
 }
